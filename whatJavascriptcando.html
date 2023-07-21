@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function changeContent()      
+        {
+             
+             document.getElementById('p1').innerHTML='welcome to chennai';
+           
+        }
+
+        function changeHtmlAttribute()
+        {
+            
+            document.getElementById('img1').src='adeeb.jpeg';
+        }
+
+        function changecssstyle()
+        {
+            document.getElementById('h1').style.backgroundColor="red";
+
+        }
+
+     
+   </script>
+    
+  <h1 id="h1" style="background-color: yellow;">JavaScript Demo</h1>
+
+  <p id="p1">Welcome to Bangalore</p>
+
+  <img id="img1" src="training.jpeg" width="300px" alt="no image found">
+  
+  <hr>
+
+
+ <button onclick="changeContent()">change html content</button>
+ <button onclick="changeHtmlAttribute()">change html attribute value</button>
+ <button onclick="changecssstyle()">change css style</button>
+
+
+
+    
+
+     
+
+   
+</body>
+</html>
